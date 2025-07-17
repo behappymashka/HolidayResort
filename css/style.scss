@@ -1,10 +1,11 @@
 @import "./fonts.css";
 @import "./null.css";
+
 $main-color: #D8AE5E;
 $text-color-dark: #090909;
 $text-color-light: #f4f4f4;
-$white:#fff;
-$black:#000;
+$white: #fff;
+$black: #000;
 
 $font-main: 'Source Sans Pro', sans-serif;
 $font-title: 'Bodoni 72', sans-serif;
@@ -26,6 +27,13 @@ body {
 	color: $text-color-light;
 	text-transform: uppercase;
 
+}
+
+a:focus,
+button:focus {
+	outline: 2px solid $main-color;
+	outline-offset: 2px;
+	border-radius: 4px;
 }
 
 .wrapper {
